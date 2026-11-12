@@ -1,6 +1,6 @@
-package kr.ac.kumoh.s20260000.w26w11_thymeleaf.service
+package kr.ac.kumoh.s20231274.w26w11_thymeleaf.service
 
-import kr.ac.kumoh.s20260000.w26w11_thymeleaf.repository.SongRepository
+import kr.ac.kumoh.s20231274.w26w11_thymeleaf.repository.SongRepository
 import org.springframework.stereotype.Service
 
 @Service
