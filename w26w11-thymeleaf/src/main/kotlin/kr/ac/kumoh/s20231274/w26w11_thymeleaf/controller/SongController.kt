@@ -13,8 +13,7 @@ class SongController(
     fun getRandomSong(model: Model): String {
         model.addAttribute(
             "song",
-//            service.getRandomSong()
-            null
+            service.getRandomSong()
         )
         return "random"
     }
