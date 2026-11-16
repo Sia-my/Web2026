@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html
+        lang="ko"
+        xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Thymeleaf</title>
 </head>
 <body>
 <h2>추천 노래</h2>
-<p>[[${songTitle}]]</p>
+<div th:object="${song}">
+    <p>제목: <span th:text="*{title}">노래</span></p>
+    <p>가수: <span th:text="*{artist}">이름</span></p>
+</div>
 </body>
 </html>

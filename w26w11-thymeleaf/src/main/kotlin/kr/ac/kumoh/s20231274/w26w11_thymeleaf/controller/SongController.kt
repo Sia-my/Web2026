@@ -12,8 +12,9 @@ class SongController(
     @GetMapping("/songs/random")
     fun getRandomSong(model: Model): String {
         model.addAttribute(
-            "songTitle",
-            service.getRandomSong()?.title ?: "노래 없음"
+            "song",
+//            service.getRandomSong()
+            null
         )
         return "random"
     }
