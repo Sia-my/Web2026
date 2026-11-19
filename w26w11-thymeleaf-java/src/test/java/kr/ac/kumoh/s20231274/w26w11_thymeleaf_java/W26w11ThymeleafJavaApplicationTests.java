@@ -1,4 +1,4 @@
-package kr.ac.kumoh.s20231274.w26w11_thymeleaf_java;
+package kr.ac.kumoh.s2023274.w26w11_thymeleaf_java;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
